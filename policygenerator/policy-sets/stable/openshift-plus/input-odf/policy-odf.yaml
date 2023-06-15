@@ -70,10 +70,10 @@ spec:
         resources:
           requests:
             storage: 2Ti
-        storageClassName: gp3-csi
+        storageClassName: thin-csi
         volumeMode: Block
       status: {}
-    name: ocs-deviceset-gp3-csi
+    name: ocs-deviceset-thin-csi
     placement: {}
     portable: true
     preparePlacement: {}
